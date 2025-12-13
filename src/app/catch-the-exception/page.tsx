@@ -155,7 +155,7 @@ export default function ExceptionGamePage() {
     <main className="mx-auto min-h-[calc(100vh-5rem)] max-w-4xl px-4 py-10 space-y-8">
       <header className="space-y-3">
         <h1 className="text-3xl font-semibold tracking-tight">
-          Exception Flow Game
+          Catch The Exception
         </h1>
         <p className="text-sm text-slate-400">
           For each scenario, choose <span className="font-semibold">where to throw</span> 

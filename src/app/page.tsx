@@ -61,7 +61,7 @@ export default function Home() {
 
               <div className="mt-6 flex flex-wrap gap-3 text-sm">
                 <Button asChild className="rounded-full bg-neutral-900 px-5 py-2 text-sm text-neutral-50 shadow-sm hover:bg-neutral-800">
-                  <Link href="/exception-game">
+                  <Link href="/catch-the-exception">
                     Play Catch!
                   </Link>
                 </Button>
