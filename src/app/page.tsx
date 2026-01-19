@@ -39,7 +39,7 @@ export default function Home() {
                   <div className="absolute inset-[5px] rounded-full bg-[radial-gradient(circle_at_30%_20%,_#fef9c3,_#f97316_40%,_#1b1108_90%)]" />
                 </div>
                 <span className="text-[11px] text-neutral-400">
-                  coffee, page 01
+                  tinker to learn
                 </span>
               </div>
             </div>
@@ -61,8 +61,8 @@ export default function Home() {
 
               <div className="mt-6 flex flex-wrap gap-3 text-sm">
                 <Button asChild className="rounded-full bg-neutral-900 px-5 py-2 text-sm text-neutral-50 shadow-sm hover:bg-neutral-800">
-                  <Link href="/catch-the-exception">
-                    Play Catch!
+                  <Link href="/deployment">
+                    That service you're working on - where does it run?
                   </Link>
                 </Button>
 
@@ -71,8 +71,8 @@ export default function Home() {
                   variant="ghost"
                   className="rounded-full border border-dashed border-neutral-400/70 bg-amber-50/40 px-5 py-2 text-sm text-neutral-900 hover:bg-amber-100/70"
                 >
-                  <Link href="/writing">
-                    Explore my writing →
+                  <Link href="/failure-shapes">
+                   If we build very very carefully, can we avoid failure?
                   </Link>
                 </Button>
               </div>

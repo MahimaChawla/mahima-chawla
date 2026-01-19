@@ -6,8 +6,9 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { href: "/", label: "Home" },
-  { href: "/catch-the-exception", label: "Catch!" },
   { href: "/deployment", label: "Where's it running?" },
+  { href: "/failure-shapes", label: "Failure Shapes" },
+  { href: "/catch-the-exception", label: "Catch!" },
 ];
 
 export default function Navbar() {
